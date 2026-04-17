@@ -1,12 +1,1 @@
-region = "Oregon"
-platform = "linux/amd64"
-
-[build]
-  dockerfile_path = "Dockerfile"
-
-[deploy]
-  health_check_path = "/health"
-  restart_policy_type = "always"
-
-[env]
-  PORT = "8000"
+{"region":"oregon","platform":"linux/amd64","build":{"dockerfilePath":"Dockerfile"},"deploy":{"healthCheckPath":"/health","restartPolicyType":"always"},"env":{"PORT":"8000"}}
