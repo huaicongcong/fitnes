@@ -9,6 +9,7 @@ COPY backend/ .
 
 RUN mkdir -p /data
 ENV DATABASE_URL="sqlite:////data/jianshen.db"
+ENV PYTHONPATH="/app"
 
 EXPOSE 8000
 
